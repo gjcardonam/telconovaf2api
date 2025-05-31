@@ -1,5 +1,6 @@
 package com.telconova.telconovaf2.application.service.security;
 
+import com.telconova.telconovaf2.domain.entities.Role;
 import com.telconova.telconovaf2.domain.entities.User;
 import com.telconova.telconovaf2.domain.repository.UserRepository;
 import com.telconova.telconovaf2.infrastructure.security.JwtUtils;
@@ -26,5 +27,20 @@ public class AuthService {
         }
         return jwtUtils.generateToken(user);
     }
+
+    public void register(String email, String name, String rawPassword, String role) {
+        if (userRepository.findByEmail(email).isPresent()) {
+            throw new RuntimeException("El correo ya está registrado");
+        }
+
+        User user = new User();
+        user.setEmail(email);
+        user.setName(name);
+        user.setPassword(passwordEncoder.encode(rawPassword)); // Aquí se codifica la contraseña
+        user.setRole(Role.valueOf(role.toUpperCase()));
+
+        userRepository.save(user);
+    }
+
 }
 
