@@ -1,15 +1,13 @@
 package com.telconova.telconovaf2.infrastructure.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Setter
-@Getter
+@Data
 public class RegisterRequest {
-    // Getters y setters
     private String email;
     private String name;
     private String password;
     private String role;
-
+    private Integer specialtyId;
+    private Integer zoneId;
 }

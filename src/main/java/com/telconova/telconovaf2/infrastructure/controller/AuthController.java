@@ -28,9 +28,17 @@ public class AuthController {
 
     @PostMapping("/register")
     public ResponseEntity<String> register(@RequestBody RegisterRequest request) {
-        authService.register(request.getEmail(), request.getName(), request.getPassword(), request.getRole());
+        authService.register(
+                request.getEmail(),
+                request.getName(),
+                request.getPassword(),
+                request.getRole(),
+                request.getSpecialtyId(),
+                request.getZoneId()
+        );
         return ResponseEntity.ok("Usuario registrado correctamente");
     }
+
 
 }
 

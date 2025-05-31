@@ -7,9 +7,16 @@ import org.springframework.stereotype.Service;
 @Service
 public class NotificationService implements NotificationServiceI {
 
+    private final EmailService emailService;
+
+    public NotificationService(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
     @Override
     public void notifyTechnician(Assignment assignment) {
         String technicianName = assignment.getTechnician() != null ? assignment.getTechnician().getName() : "Técnico desconocido";
+        String technicianEmail = assignment.getTechnician() != null ? assignment.getTechnician().getEmail() : null;
         String orderName = assignment.getOrder() != null ? assignment.getOrder().getName() : "Orden desconocida";
         String zoneName = (assignment.getOrder() != null && assignment.getOrder().getZone() != null)
                 ? assignment.getOrder().getZone().getName()
@@ -17,11 +24,21 @@ public class NotificationService implements NotificationServiceI {
         String timestamp = assignment.getTimeStamp() != null ? assignment.getTimeStamp().toString() : "Sin hora";
 
         String message = String.format(
-                "📢 Técnico asignado: %s\nOrden: %s\nZona: %s\nHora: %s",
+                "📢 Hola %s,\n\nSe te ha asignado la orden: %s\nZona: %s\nHora: %s\n\nGracias.",
                 technicianName, orderName, zoneName, timestamp
         );
 
-        System.out.println(message);
-    }
+        if (technicianEmail != null) {
+            emailService.sendEmail(
+                    technicianEmail,
+                    "Nueva asignación de orden",
+                    message
+            );
+        } else {
+            System.out.println("⚠️ No se pudo enviar el correo: técnico sin correo asignado.");
+        }
 
+        // También imprime en consola para debugging
+        System.out.println("[Notificación enviada] " + message);
+    }
 }
