@@ -50,7 +50,6 @@ public class AssigmentService implements AssignmentServiceI {
         Technician technician = technicianRepository.findById(technicianId)
                 .orElseThrow(() -> new RuntimeException("Técnico no encontrado"));
 
-        // Eliminar asignación anterior (si existe)
         assignmentsRepository.findByOrderId(orderId).ifPresent(assignmentsRepository::delete);
 
         Assignment assignment = new Assignment();
