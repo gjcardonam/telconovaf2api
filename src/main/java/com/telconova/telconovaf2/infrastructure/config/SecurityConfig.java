@@ -34,6 +34,7 @@ public class SecurityConfig {
                     corsConfig.setAllowedOrigins(List.of("*")); // ⚠️ Permite TODO origen (solo para pruebas)
                     corsConfig.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                     corsConfig.setAllowedHeaders(List.of("*"));
+                    corsConfig.setAllowCredentials(true);
                     return corsConfig;
                 }))
                 .csrf(AbstractHttpConfigurer::disable)
