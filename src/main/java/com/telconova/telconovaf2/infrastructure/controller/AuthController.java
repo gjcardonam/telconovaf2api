@@ -2,9 +2,7 @@ package com.telconova.telconovaf2.infrastructure.controller;
 
 import com.telconova.telconovaf2.application.service.security.AuthService;
 import com.telconova.telconovaf2.infrastructure.dto.LoginRequest;
-import com.telconova.telconovaf2.infrastructure.dto.LoginResponse;
 import com.telconova.telconovaf2.infrastructure.dto.RegisterRequest;
-import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseCookie;
@@ -49,6 +47,22 @@ public class AuthController {
         // 4 · 204 No Content (no hace falta devolver el token en el body si viaja en cookie)
         return ResponseEntity.noContent().build();
     }
+
+    @PostMapping("/logout")
+    public ResponseEntity<Void> logout(HttpServletResponse response) {
+        ResponseCookie cookie = ResponseCookie.from("jwt", "")
+                .httpOnly(true)
+                .secure(true)
+                .sameSite("None")
+                .path("/")
+                .maxAge(0)
+                .build();
+
+        response.addHeader(HttpHeaders.SET_COOKIE, cookie.toString());
+
+        return ResponseEntity.noContent().build();
+    }
+
 
 
     @PostMapping("/register")
