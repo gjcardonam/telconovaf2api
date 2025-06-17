@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -31,22 +30,15 @@ public class OrderService implements OrderServiceI {
     }
 
     @Override
-    public Optional<OrderDTO> getOrderById(Integer orderId) {
-        Optional<Order> orderOpt = orderRepository.findById(orderId);
-
-        if (orderOpt.isEmpty()) {
-            return Optional.empty();
-        }
-
-        Order order = orderOpt.get();
+    public OrderDTO getOrderById(Integer orderId) {
+        Order order = orderRepository.findById(orderId)
+                .orElseThrow(() -> new RuntimeException("Orden no encontrada"));
 
         List<Assignment> assignments = assignmentRepository.findLatestByOrderId(orderId);
         Assignment assignment = assignments.isEmpty() ? null : assignments.get(0);
 
-        return Optional.of(mapper.orderToDTO(order, assignment));
+        return mapper.orderToDTO(order, assignment);
     }
-
-
 
     @Override
     public List<OrderDTO> getAllOrders() {
@@ -55,9 +47,9 @@ public class OrderService implements OrderServiceI {
 
         Map<Integer, Assignment> assignmentMap = assignments.stream()
                 .collect(Collectors.toMap(
-                        a -> a.getOrder().getId(),   // key: order ID
-                        a -> a,                      // value: assignment
-                        (a1, a2) -> a1.getTimeStamp().after(a2.getTimeStamp()) ? a1 : a2 // keep latest
+                        a -> a.getOrder().getId(),
+                        a -> a,
+                        (a1, a2) -> a1.getTimeStamp().after(a2.getTimeStamp()) ? a1 : a2
                 ));
 
         return orders.stream()
@@ -77,7 +69,7 @@ public class OrderService implements OrderServiceI {
         );
 
         if (orders.isEmpty()) {
-            return List.of();
+            throw new RuntimeException("Orden no encontrada");
         }
 
         List<Integer> orderIds = orders.stream()
@@ -88,9 +80,9 @@ public class OrderService implements OrderServiceI {
 
         Map<Integer, Assignment> assignmentMap = assignments.stream()
                 .collect(Collectors.toMap(
-                        a -> a.getOrder().getId(), // key: order ID
-                        a -> a,                    // value: assignment
-                        (a1, a2) -> a1             // merge rule if duplicate: keep first
+                        a -> a.getOrder().getId(),
+                        a -> a,
+                        (a1, a2) -> a1
                 ));
 
         return orders.stream()
@@ -100,6 +92,4 @@ public class OrderService implements OrderServiceI {
                 })
                 .toList();
     }
-
-
 }

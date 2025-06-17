@@ -29,11 +29,11 @@ public class SearchController {
 
     @GetMapping("/{orderId}")
     public ResponseEntity<EntityModel<OrderDTO>> getOrderById(@PathVariable Integer orderId) {
-        return orderService.getOrderById(orderId)
-                .map(orderAssembler::toModel)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+        OrderDTO order = orderService.getOrderById(orderId);
+        EntityModel<OrderDTO> orderModel = orderAssembler.toModel(order);
+        return ResponseEntity.ok(orderModel);
     }
+
 
     @GetMapping("/all")
     public ResponseEntity<CollectionModel<EntityModel<OrderDTO>>> getAllOrders() {
