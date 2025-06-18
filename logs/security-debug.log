@@ -1535,3 +1535,857 @@
 21:31:09.604 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
 21:45:01.130 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
 21:45:01.475 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+21:59:08.792 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+21:59:09.299 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+22:01:01.168 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:01:01.168 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:01:01.168 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:01:16.081 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:01:16.082 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:01:16.082 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:01:31.103 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:01:31.104 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:01:31.104 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:01:46.095 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:01:46.095 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:01:46.096 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:02:01.109 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:02:01.109 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:02:01.110 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:02:16.104 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:02:16.105 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:02:16.106 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:02:31.121 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:02:31.121 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:02:31.121 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:02:46.117 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:02:46.117 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:02:46.118 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:03:01.136 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:03:01.137 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:03:01.137 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:03:16.130 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:03:16.131 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:03:16.131 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:03:31.151 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:03:31.151 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:03:31.152 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:03:46.145 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:03:46.145 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:03:46.145 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:04:01.170 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:04:01.171 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:04:01.171 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:04:16.161 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:04:16.161 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:04:16.162 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:04:31.184 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:04:31.184 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:04:31.184 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:04:46.179 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:04:46.179 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:04:46.179 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:05:01.212 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:05:01.212 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:05:01.213 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:05:16.193 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:05:16.193 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:05:16.194 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:05:31.224 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:05:31.225 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:05:31.225 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:05:46.212 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:05:46.212 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:05:46.212 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:06:01.239 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:06:01.239 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:06:01.239 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:06:16.226 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:06:16.226 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:06:16.226 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:06:31.264 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:06:31.265 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:06:31.265 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:06:46.255 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:06:46.256 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:06:46.256 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:07:01.292 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:07:01.292 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:07:01.292 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:07:16.276 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:07:16.276 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:07:16.276 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:07:31.309 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:07:31.310 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:07:31.310 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:07:46.300 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:07:46.300 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:07:46.300 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:08:01.326 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:08:01.326 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:08:01.327 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:08:16.320 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:08:16.321 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:08:16.321 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:08:31.360 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:08:31.360 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:08:31.361 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:08:46.350 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:08:46.351 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:08:46.351 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:09:01.386 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:09:01.386 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:09:01.386 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:09:16.377 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:09:16.378 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:09:16.378 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:09:31.413 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:09:31.413 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:09:31.413 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:09:46.403 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:09:46.404 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:09:46.404 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:10:01.439 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:10:01.440 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:10:01.441 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:10:16.424 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:10:16.424 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:10:16.424 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:10:31.452 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:10:31.453 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:10:31.453 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:10:46.446 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:10:46.446 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:10:46.446 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:11:01.479 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:11:01.479 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:11:01.480 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:11:16.469 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:11:16.469 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:11:16.469 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:11:31.503 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:11:31.503 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:11:31.503 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:11:46.494 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:11:46.494 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:11:46.494 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:12:01.527 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:12:01.527 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:12:01.527 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:12:16.510 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:12:16.510 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:12:16.510 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:12:31.539 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:12:31.540 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:12:31.540 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:12:46.531 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:12:46.531 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:12:46.531 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:13:01.566 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:13:01.567 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:13:01.567 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:13:16.550 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:13:16.550 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:13:16.550 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:13:31.589 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:13:31.590 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:13:31.590 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:13:46.579 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:13:46.579 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:13:46.579 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:14:01.607 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:14:01.607 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:14:01.608 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:14:16.597 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:14:16.597 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:14:16.597 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:14:31.629 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:14:31.630 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:14:31.630 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:14:46.621 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:14:46.621 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:14:46.621 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:15:01.664 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:15:01.664 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:15:01.664 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:15:16.646 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:15:16.647 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:15:16.647 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:15:31.689 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:15:31.689 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:15:31.690 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:15:46.677 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:15:46.677 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:15:46.677 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:16:01.707 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:16:01.707 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:16:01.707 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:16:16.697 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:16:16.697 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:16:16.697 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:16:31.732 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:16:31.733 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:16:31.733 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:16:46.720 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:16:46.721 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:16:46.721 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:17:01.754 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:17:01.754 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:17:01.754 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:17:16.746 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:17:16.747 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:17:16.747 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:17:31.786 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:17:31.787 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:17:31.787 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:17:46.772 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:17:46.773 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:17:46.773 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:18:01.802 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:18:01.802 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:18:01.802 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:18:16.795 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:18:16.796 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:18:16.796 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:18:31.829 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:18:31.829 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:18:31.829 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:18:46.821 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:18:46.822 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:18:46.822 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:19:01.855 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:19:01.856 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:19:01.856 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:19:16.847 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:19:16.847 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:19:16.847 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:19:31.880 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:19:31.880 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:19:31.880 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:19:46.866 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:19:46.867 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:19:46.867 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:20:01.909 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:20:01.909 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:20:01.909 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:20:16.889 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:20:16.889 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:20:16.889 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:20:31.921 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:20:31.921 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:20:31.921 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:20:46.913 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:20:46.913 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:20:46.913 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:21:01.948 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:21:01.948 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:21:01.948 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:21:16.935 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:21:16.936 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:21:16.936 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:21:31.956 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:21:31.956 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:21:31.956 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:21:46.953 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:21:46.953 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:21:46.954 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:22:01.985 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:22:01.985 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:22:01.985 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:22:16.970 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:22:16.971 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:22:16.971 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:22:32.002 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:22:32.002 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:22:32.002 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:22:46.989 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:22:46.989 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:22:46.989 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:23:02.018 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:23:02.018 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:23:02.018 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:23:17.006 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:23:17.006 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:23:17.006 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:23:32.035 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:23:32.035 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:23:32.035 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:23:47.023 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:23:47.024 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:23:47.024 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:24:02.088 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:24:02.089 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:24:02.089 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:24:17.065 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:24:17.065 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:24:17.065 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:24:32.110 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:24:32.111 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:24:32.111 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:24:47.087 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:24:47.087 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:24:47.088 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:25:02.137 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:25:02.137 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:25:02.137 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:25:17.107 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:25:17.108 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:25:17.108 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:25:32.179 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:25:32.179 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:25:32.179 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:25:47.159 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:25:47.160 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:25:47.160 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:26:02.215 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:26:02.215 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:26:02.215 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:26:17.193 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:26:17.194 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:26:17.194 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:26:32.244 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:26:32.245 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:26:32.245 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:26:47.233 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:26:47.233 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:26:47.233 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:27:02.288 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:27:02.289 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:27:02.289 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:27:17.268 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:27:17.269 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:27:17.269 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:27:32.317 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:27:32.318 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:27:32.318 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:27:47.304 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:27:47.305 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:27:47.305 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:28:02.356 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:28:02.356 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:28:02.357 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:28:17.345 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:28:17.346 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:28:17.346 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:28:32.399 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:28:32.399 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:28:32.399 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:28:47.387 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:28:47.387 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:28:47.388 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:29:02.446 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:29:02.446 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:29:02.447 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:29:17.436 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:29:17.437 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:29:17.437 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:29:32.485 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:29:32.485 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:29:32.485 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:29:47.480 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:29:47.480 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:29:47.480 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:30:02.536 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:30:02.537 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:30:02.537 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:30:17.528 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:30:17.528 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:30:17.528 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:30:32.585 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:30:32.585 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:30:32.585 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:30:47.574 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:30:47.575 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:30:47.575 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:31:02.632 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:31:02.632 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:31:02.632 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:31:17.624 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:31:17.625 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:31:17.625 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:31:32.672 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:31:32.672 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:31:32.672 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:31:47.664 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:31:47.665 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:31:47.665 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:32:02.714 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:32:02.714 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:32:02.714 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:32:17.706 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:32:17.707 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:32:17.707 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:32:32.759 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:32:32.759 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:32:32.759 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:32:47.752 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:32:47.752 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:32:47.752 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:33:02.808 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:33:02.808 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:33:02.808 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:33:17.800 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:33:17.800 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:33:17.800 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:33:32.846 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:33:32.846 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:33:32.846 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:33:47.837 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:33:47.838 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:33:47.838 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+22:34:02.884 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /actuator/prometheus
+22:34:02.884 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+22:34:02.884 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /actuator/prometheus
+17:40:32.613 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+17:40:32.974 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+17:40:53.161 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:40:53.178 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:40:53.178 [http-nio-8080-exec-1] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:40:53.178 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:41:00.430 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:41:00.430 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:41:00.430 [http-nio-8080-exec-2] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:41:00.430 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:42:22.567 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/assignment/auto?orderId=208
+17:42:22.567 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:22.567 [http-nio-8080-exec-3] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:42:22.567 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/assignment/auto?orderId=208
+17:42:22.577 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error?orderId=208
+17:42:22.577 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:22.577 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/assignment/auto
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/assignment/auto
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:29.162 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:42:40.891 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/auth/login
+17:42:40.891 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:40.891 [http-nio-8080-exec-5] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:42:40.892 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/auth/login
+17:42:40.894 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+17:42:40.894 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:40.894 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:42:48.824 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:42:48.824 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:42:48.824 [http-nio-8080-exec-6] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:42:48.824 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:43:09.755 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto
+17:43:09.756 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:09.756 [http-nio-8080-exec-7] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:43:09.756 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:43:09.757 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+17:43:09.757 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:09.757 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:43:46.000 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:43:46.000 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:46.000 [http-nio-8080-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:43:46.005 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:43:46.006 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:43:46.007 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:46.007 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/auth/login
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/auth/login
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:51.827 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:43:55.581 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:43:55.581 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:43:55.581 [http-nio-8080-exec-10] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:43:55.581 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 78EA465ABC0F27D8A8F790F5DB30716B
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:44:04.905 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:44:26.250 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:44:26.250 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:44:26.252 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:44:43.927 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/orders/all
+17:44:43.927 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:44:43.927 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:44:43.927 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+17:44:43.927 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:44:43.927 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:03.562 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:03.562 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:03.562 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:03.562 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:03.562 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:03.562 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:10.161 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:10.161 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:10.161 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:10.161 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:10.161 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:10.161 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.254 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:13.254 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.255 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.255 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:13.256 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.256 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.429 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:13.429 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.429 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.429 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:13.429 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.429 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.611 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:13.611 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.611 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.611 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:13.611 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.611 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.779 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:13.779 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.779 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.779 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:13.779 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.779 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.950 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:13.950 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.950 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:13.950 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:13.950 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:13.950 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:14.112 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:45:14.112 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:14.112 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:45:14.112 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:45:14.112 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:45:14.112 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:46:46.125 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:46:46.125 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:46:46.125 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:46:46.125 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:46:46.125 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:46:46.125 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:47:07.813 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+17:47:07.814 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:07.814 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+17:47:07.854 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+17:47:07.854 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:07.854 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+17:47:07.855 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+17:47:07.855 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:07.855 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+17:47:07.855 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:07.855 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+17:47:07.855 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+17:47:07.855 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+17:47:07.855 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+17:47:07.855 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:07.855 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:07.855 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+17:47:07.855 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+17:47:08.044 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+17:47:08.045 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:08.045 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+17:47:08.056 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+17:47:08.057 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:08.057 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+17:47:24.885 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:47:24.891 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:47:24.891 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:47:36.461 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:47:36.490 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+17:48:03.524 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=209
+17:48:03.524 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=209
+17:48:22.951 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:48:22.952 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:48:26.627 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=209
+17:48:26.628 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=209
+17:48:42.258 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:48:42.268 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:48:55.250 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=209
+17:48:55.252 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=209
+17:49:57.053 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+17:49:57.406 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+17:50:58.853 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:50:58.853 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:50:58.853 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:50:58.870 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:50:58.870 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:50:58.870 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:51:04.740 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/orders/all
+17:51:04.740 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:51:04.740 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:51:04.740 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+17:51:04.740 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:51:04.740 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:51:10.491 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:51:10.491 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:51:10.491 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:51:33.797 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /orders/all
+17:51:33.798 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:51:33.798 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:51:33.798 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:51:33.798 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:51:33.798 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:51:41.946 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+17:51:41.956 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+17:51:41.977 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+17:51:41.977 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+17:51:41.978 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+17:51:41.978 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+17:51:41.978 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+17:51:41.980 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+17:51:41.980 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+17:51:42.007 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+17:51:42.008 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+17:51:42.008 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+17:51:42.145 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+17:51:42.146 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+17:51:42.147 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+17:51:42.148 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+17:51:42.162 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+17:51:42.164 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+17:51:56.909 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:51:56.913 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:51:58.368 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:51:58.370 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:52:11.208 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:52:11.209 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:52:16.377 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:52:16.378 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:52:32.368 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+17:52:32.368 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+17:52:32.370 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+17:52:32.370 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+17:52:32.372 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /.well-known/appspecific/com.chrome.devtools.json
+17:52:32.380 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /.well-known/appspecific/com.chrome.devtools.json
+17:52:32.383 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:52:32.383 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:52:32.383 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:52:32.470 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css.map
+17:52:32.471 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css.map
+17:52:53.128 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:52:53.131 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+17:53:53.098 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+17:53:53.101 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+17:56:20.552 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+17:56:20.933 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+17:56:37.040 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:56:37.055 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:56:37.059 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:56:47.544 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:56:47.545 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:56:47.549 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:56:47.553 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+17:56:47.554 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+17:56:47.554 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+17:56:53.255 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+17:56:53.264 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+17:56:53.288 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+17:56:53.288 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+17:56:53.289 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+17:56:53.289 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+17:56:53.289 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+17:56:53.291 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+17:56:53.291 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+17:56:53.291 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+17:56:53.291 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+17:56:53.291 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+17:56:53.456 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+17:56:53.456 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+17:56:53.458 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+17:56:53.458 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+17:56:53.476 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+17:56:53.477 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+17:57:11.966 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+17:57:11.973 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+17:57:20.933 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+17:57:20.934 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+17:57:32.872 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+17:57:32.874 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+17:59:11.817 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+17:59:11.819 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+18:01:05.064 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+18:01:05.411 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+18:01:53.346 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+18:01:53.379 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+18:01:53.406 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+18:01:53.406 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+18:01:53.407 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+18:01:53.407 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+18:01:53.407 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+18:01:53.408 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+18:01:53.408 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+18:01:53.408 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+18:01:53.408 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+18:01:53.408 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+18:01:53.575 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+18:01:53.576 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+18:01:53.578 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+18:01:53.578 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+18:01:53.598 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+18:01:53.599 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+18:02:00.317 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+18:02:00.320 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+18:02:46.981 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+18:02:47.340 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+18:03:31.139 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+18:03:31.173 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+18:03:31.201 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+18:03:31.201 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+18:03:31.201 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+18:03:31.201 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+18:03:31.201 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+18:03:31.203 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+18:03:31.203 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+18:03:31.203 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+18:03:31.203 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+18:03:31.203 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+18:03:31.303 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+18:03:31.304 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+18:03:31.306 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+18:03:31.306 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+18:03:31.333 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+18:03:31.334 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+18:03:35.076 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+18:03:35.080 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+18:03:47.528 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+18:03:47.530 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+20:27:26.513 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+20:27:26.948 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+20:27:32.302 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+20:27:32.342 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.346 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+20:27:32.380 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+20:27:32.380 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+20:27:32.381 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+20:27:32.381 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+20:27:32.381 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+20:27:32.382 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.382 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.382 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.382 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.382 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.382 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+20:27:32.382 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+20:27:32.383 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+20:27:32.383 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+20:27:32.384 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+20:27:32.567 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+20:27:32.569 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.570 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+20:27:32.591 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+20:27:32.593 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:32.593 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+20:27:43.969 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+20:27:43.971 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:43.976 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+20:27:43.982 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+20:27:43.982 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:27:43.982 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+20:28:07.562 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:28:07.584 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:28:07.584 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:28:10.912 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:28:10.914 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:28:10.914 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:28:16.113 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:28:16.115 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:28:16.116 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:28:17.055 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:28:17.057 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:28:17.057 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:28:28.981 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:28:28.984 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:28:28.984 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:29:25.850 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+20:29:26.241 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+20:29:35.174 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:29:35.215 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:29:35.219 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:29:36.567 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:29:36.569 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:29:36.569 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:29:41.107 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:29:41.109 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:29:41.111 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:30:10.494 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:30:10.496 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:30:10.496 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:30:16.443 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+20:30:16.443 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+20:30:16.443 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+20:30:16.443 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+20:30:16.451 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /.well-known/appspecific/com.chrome.devtools.json
+20:30:16.459 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /.well-known/appspecific/com.chrome.devtools.json
+20:30:16.462 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+20:30:16.462 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:30:16.472 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+20:30:16.553 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css.map
+20:30:16.553 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css.map
+20:31:35.949 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+20:31:35.952 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+20:31:57.718 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment
+20:31:57.720 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment
+20:32:00.711 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment
+20:32:00.713 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment
+20:32:15.705 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/assignment/report
+20:32:15.706 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/assignment/report
+20:32:33.642 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=205
+20:32:33.643 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=205
+20:32:48.468 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment
+20:32:48.470 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment
+20:33:14.325 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=205
+20:33:14.327 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=205
+20:45:18.106 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+20:45:18.459 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+20:46:15.349 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.html
+20:46:15.384 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.html
+20:46:15.414 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui.css
+20:46:15.414 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/index.css
+20:46:15.415 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-bundle.js
+20:46:15.415 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+20:46:15.415 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/swagger-initializer.js
+20:46:15.417 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/index.css
+20:46:15.417 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+20:46:15.417 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui.css
+20:46:15.417 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-ui-bundle.js
+20:46:15.417 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/swagger-initializer.js
+20:46:15.582 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /swagger-ui/favicon-32x32.png
+20:46:15.583 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs/swagger-config
+20:46:15.584 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /swagger-ui/favicon-32x32.png
+20:46:15.584 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs/swagger-config
+20:46:15.606 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /v3/api-docs
+20:46:15.608 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /v3/api-docs
+20:46:33.956 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:46:33.960 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:46:48.159 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:46:48.161 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:46:56.484 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+20:46:56.487 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/orders/all
+20:47:04.494 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+20:47:04.496 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+20:47:15.461 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+20:47:15.462 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+20:50:07.674 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+20:50:07.855 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+20:50:48.116 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+20:50:48.289 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+20:51:14.375 [restartedMain] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+20:51:14.722 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+20:52:17.640 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/login
+20:52:17.676 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/login
+20:52:21.149 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/assignment/auto?orderId=201
+20:52:21.153 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/assignment/auto?orderId=201
+20:54:45.593 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/logout
+20:54:45.595 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/logout
+20:54:47.079 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/auth/logout
+20:54:47.080 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:54:47.080 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/auth/logout
+20:54:50.609 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/orders/all
+20:54:50.609 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:54:50.611 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+20:54:50.615 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+20:54:50.616 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+20:54:50.616 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
